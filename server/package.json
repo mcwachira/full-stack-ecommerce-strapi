@@ -1,0 +1,29 @@
+{
+  "name": "full-stack-ecommerce-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.9.1",
+    "@strapi/strapi": "4.9.1",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "mcwachira"
+  },
+  "strapi": {
+    "uuid": "54ff0b7a-46af-4a74-8885-2658ec1c9bcb"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
